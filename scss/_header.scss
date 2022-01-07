@@ -1,0 +1,119 @@
+header {
+  height: 100%;
+  background-image: url("images/background_header.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.logo img {
+  width: 250px;
+  height: 250px;
+}
+
+.title {
+  margin: 10px auto;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: $white;
+  z-index: 2;
+}
+
+/*---------------ANIMATION BUBBLE--------------------------*/
+
+.bubbles img,
+.bubbles h2 {
+  width: 55px;
+  text-align: center;
+  color: $white;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.b2 img,
+.b2 h2,
+.b3 img,
+.b3 h2 {
+  width: 65px;
+  text-align: center;
+}
+
+.b5 img,
+.b5 h2 {
+  width: 70px;
+  text-align: center;
+}
+
+.b7 img,
+.b7 h2 {
+  width: 60px;
+  text-align: center;
+}
+
+.bubble-content {
+  animation: bubble 4s linear infinite;
+}
+
+.bubbles {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: -80px;
+}
+
+.bubble-content h2 {
+  position: absolute;
+  bottom: 20px;
+}
+
+@keyframes bubble {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-80vh);
+    opacity: 0;
+  }
+}
+
+.b1 {
+  animation-delay: 1s;
+}
+
+.b3,
+.b7 {
+  animation-delay: 3s;
+}
+
+.b4 {
+  animation-delay: 5s;
+}
+
+.b5 {
+  animation-delay: 2s;
+}
+
+.b6 {
+  animation-delay: 4s;
+}

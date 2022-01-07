@@ -1,0 +1,58 @@
+.navbar {
+  background-color: $dark-blue;
+  color: $white;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+
+  .nav-logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 75px;
+      height: 75px;
+    }
+
+    h2 {
+      margin-left: 10px;
+      font-size: 2em;
+      span {
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+
+    ul {
+      display: flex;
+    }
+  }
+}
+
+li {
+  margin: 15px;
+  padding: 5px 10px;
+  list-style: none;
+}
+
+li:hover {
+  background-color: $light-blue;
+  border-radius: 25px;
+
+  a {
+    color: $dark-blue;
+  }
+}
+
+li a {
+  text-decoration: none;
+  color: $white;
+  font-size: 1.2em;
+}
