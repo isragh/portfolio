@@ -58,7 +58,7 @@
     <main>
         <section id="navigation" class="navbar">
             <div class="nav-logo">
-                <img src="images/logo.png" alt="logo" />
+                <a href="#"><img src="images/logo.png" alt="logo" /></a>
                 <h2>Israel <span>Full-Stack Developer</span></h2>
             </div>
             <div class="nav-menu">
@@ -83,7 +83,7 @@
                     quick learner, naturally curious and I take full responsibility over my work. <br><br> If you are
                     willing to connect and network, you can find me on <a href="#" target="_blank">Linkedin</a>.
                     Additionally, you can find
-                    my work on <a href="#" target="_blank">Github</a>.
+                    my work on <a href="https://github.com/isragh" target="_blank">Github</a>.
                 </p>
             </div>
             <div class="img-descript">
@@ -145,18 +145,19 @@
 
             </div>
         </section>
-
+        <div class="gradient-bt"></div>
         <section id="contact" class="contact">
             <form action="https://formspree.io/f/xnqwnbab" method="post">
                 <h2>Get in touch!</h2>
                 <div class="input">
                     <div class="email">
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email" placeholder="Your email...">
+                        <input type="email" name="email" id="email" placeholder="Email address" required>
                     </div>
                     <div class="message">
-                        <label for="message">Message</label>
-                        <input type="text" name="text" id="text" placeholder="Write something...">
+                        <label for="text">Message</label>
+                        <textarea name="text" id="text" cols="30" rows="8" placeholder="How can I help you today?"
+                            required></textarea>
                     </div>
                 </div>
                 <br />
@@ -169,19 +170,15 @@
 
     <footer>
         <div class="content-footer">
-            <img src="" alt="logo" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Non iure deserunt ab provident officiis dol
-            </p>
-        </div>
-
-        <div class="link-footer">
             <nav>
                 <ul>
-                    <li><a href="3"><img src="" alt="linkedin"></a></li>
-                    <li><a href="3"><img src="" alt="email"></a></li>
-                    <li><a href="3"><img src="" alt="github"></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="mailto:isragonher@gmail.com"><i class="fas fa-envelope-open-text"></i></a></li>
+                    <li><a href="https://github.com/isragh" target="_blank"><i class="fa fa-github"></i></a></li>
                 </ul>
             </nav>
+            <p>I am looking forward to collaborating together on great projects for the future! <br> <br> Let's connect!
+            </p>
         </div>
     </footer>
 </body>
