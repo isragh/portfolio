@@ -1,16 +1,21 @@
 .navbar {
-  background-color: $dark-blue;
+  width: 100%;
+  background-color: $dark-green;
   color: $white;
   position: sticky;
   top: 0;
   z-index: 10;
   display: flex;
-  justify-content: space-between;
   box-shadow: 3px 4px 5px 1px $black;
 
   .nav-logo {
+    width: 50%;
     display: flex;
     align-items: center;
+
+    a {
+      margin-left: 2%;
+    }
 
     img {
       width: 75px;
@@ -18,7 +23,6 @@
     }
 
     h2 {
-      margin-left: 10px;
       font-size: 2em;
       span {
         font-size: 1.7rem;
@@ -27,33 +31,13 @@
   }
 
   .nav-menu {
-    display: flex;
-    align-items: center;
-    margin-right: 50px;
+    width: 50%;
+    text-align: right;
+    padding-right: 3%;
 
     ul {
       display: flex;
+      justify-content: end;
     }
   }
-}
-
-li {
-  margin: 15px;
-  padding: 5px 10px;
-  list-style: none;
-}
-
-li:hover {
-  background-color: $light-blue;
-  border-radius: 25px;
-
-  a {
-    color: $dark-blue;
-  }
-}
-
-li a {
-  text-decoration: none;
-  color: $white;
-  font-size: 1.2em;
 }

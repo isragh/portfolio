@@ -1,10 +1,10 @@
 .skills h2 {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 130px;
   font-size: 2.5em;
 }
 
-/*---------------ANIMATION ICONS--------------------------*/
+/*---------------ANIMATION ICONS TOP--------------------------*/
 
 .cont-skills {
   width: 100%;
@@ -12,7 +12,7 @@
   margin: 95px auto;
   display: flex;
   justify-content: center;
-  font-size: 1.3em;
+  font-size: 1.2em;
   position: relative;
 
   img {
@@ -79,7 +79,7 @@
 .cont-skills:hover h3 {
   opacity: 1;
   font-size: 1.3em;
-  color: $dark-blue;
+  color: $dark-green;
 }
 
 /*---------------ANIMATION ICONS BTN--------------------------*/
@@ -136,5 +136,5 @@
 .cont-bt:hover h3 {
   opacity: 1;
   font-size: 1.3em;
-  color: $dark-blue;
+  color: $dark-green;
 }

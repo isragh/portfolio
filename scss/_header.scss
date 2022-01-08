@@ -1,17 +1,17 @@
 header {
+  min-width: 100%;
+  padding-top: 5%;
   height: 100%;
   background-image: url("images/background_header.jpeg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   background-position: right;
   position: relative;
-  overflow: hidden;
+  
 }
 
 .logo {
-  display: flex;
-  justify-content: center;
-  padding-top: 5%;
+  text-align: center;
 }
 
 .logo img {
@@ -20,12 +20,9 @@ header {
 }
 
 .title {
-  margin: 10px auto;
-  padding-top: 10px;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.8em;
   color: $white;
-  z-index: 2;
 }
 
 /*---------------ANIMATION BUBBLE--------------------------*/

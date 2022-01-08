@@ -41,12 +41,29 @@
     font-size: 1.4em;
   }
 
+  li a {
+    font-size: 1em;
+  }
+
   .icon img {
-    width: 70px !important;
-    height: 70px !important;
+    width: 70px;
+    height: 70px;
   }
 
   .card img {
-      width: 250px;
+    width: 250px;
+  }
+
+  .submit {
+    input {
+      font-size: 1em;
+    }
+  }
+}
+
+
+@media (max-width: 650px) {
+  h1 {
+    font-size: 1.1em;
   }
 }
