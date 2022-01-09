@@ -66,7 +66,7 @@ li a {
 header {
   min-width: 100%;
   padding-top: 5%;
-  height: 100%;
+  height: 90%;
   background-image: url("images/background_header.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -592,13 +592,46 @@ form h2 {
     font-size: 1em;
   }
 
+  .cont-skills:hover h3,
+.cont-bt:hover h3 {
+    opacity: 0;
+  }
+
+  .cont-skills:hover .html,
+.cont-skills:hover .query,
+.cont-skills:hover .bootstrap,
+.cont-skills:hover .css,
+.cont-skills:hover .js {
+    transform: translateY(0);
+  }
+
+  .cont-bt:hover .node,
+.cont-bt:hover .git,
+.cont-bt:hover .react {
+    transform: translateY(0);
+  }
+
   .icon img {
     width: 70px;
     height: 70px;
   }
 
+  .cover {
+    width: 250px;
+    height: 250px;
+  }
+
   .card img {
     width: 250px;
+  }
+
+  .card:hover img {
+    width: 250px;
+  }
+
+  .card:hover .cover {
+    width: 250px;
+    height: 250px;
   }
 
   .submit input {
@@ -608,6 +641,33 @@ form h2 {
 @media (max-width: 650px) {
   h1 {
     font-size: 1.1em;
+  }
+
+  .navbar .nav-logo {
+    display: none;
+  }
+  .navbar .nav-menu {
+    width: 100%;
+    padding-right: 0;
+  }
+  .navbar .nav-menu ul {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 550px) {
+  li a {
+    font-size: 0.9em;
+  }
+
+  .icon img {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media (max-width: 450px) {
+  .nav-menu li {
+    margin: 15px 2px;
   }
 }
 
