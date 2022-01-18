@@ -128,9 +128,12 @@
 }
 
 @media (max-width: 450px) {
-  .nav-menu{
+  .nav-menu {
     li {
       margin: 15px 2px;
     }
+  }
+  .bubbles {
+    display: none;
   }
 }

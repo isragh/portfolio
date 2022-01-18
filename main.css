@@ -670,6 +670,10 @@ form h2 {
   .nav-menu li {
     margin: 15px 2px;
   }
+
+  .bubbles {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
